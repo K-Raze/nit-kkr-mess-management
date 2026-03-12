@@ -1,0 +1,30 @@
+t=2026-03-10T21:16:43+0530 lvl=info msg="no configuration paths supplied"
+t=2026-03-10T21:16:43+0530 lvl=info msg="using configuration at default config path" path=C:\\Users\\sulem\\AppData\\Local\\ngrok\\ngrok.yml
+t=2026-03-10T21:16:43+0530 lvl=info msg="open config file" path=C:\\Users\\sulem\\AppData\\Local\\ngrok\\ngrok.yml err=nil
+t=2026-03-10T21:16:43+0530 lvl=info msg="FIPS 140 mode" enabled=false
+t=2026-03-10T21:16:43+0530 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2026-03-10T21:16:45+0530 lvl=info msg="client session established" obj=tunnels.session
+t=2026-03-10T21:16:45+0530 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2026-03-10T21:16:45+0530 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=http://localhost:5000 url=https://unsedimental-aura-figgiest.ngrok-free.dev
+t=2026-03-10T21:17:36+0530 lvl=info msg="join connections" obj=join id=2d52392ad7da l=[::1]:5000 r=[2a09:bac5:3ce7:16b4::243:b2]:45668
+t=2026-03-10T21:18:14+0530 lvl=info msg="join connections" obj=join id=9d5b293efb74 l=[::1]:5000 r=122.15.204.69:62888
+t=2026-03-10T21:18:14+0530 lvl=info msg="join connections" obj=join id=3cae2b3a2c5b l=[::1]:5000 r=122.15.204.69:62888
+t=2026-03-10T21:18:17+0530 lvl=info msg="join connections" obj=join id=bb2bbcd6176a l=[::1]:5000 r=122.15.204.69:62888
+t=2026-03-10T21:18:17+0530 lvl=info msg="join connections" obj=join id=e07e83102cb8 l=[::1]:5000 r=122.15.204.69:62888
+t=2026-03-10T21:18:17+0530 lvl=info msg="join connections" obj=join id=daa0b0b575dc l=[::1]:5000 r=122.15.204.69:62888
+t=2026-03-10T21:18:51+0530 lvl=info msg="join connections" obj=join id=41d9973586ae l=[::1]:5000 r=122.15.204.69:62888
+t=2026-03-10T21:56:37+0530 lvl=info msg="join connections" obj=join id=e72889e42021 l=[::1]:5000 r=122.15.204.69:62936
+t=2026-03-10T22:03:18+0530 lvl=eror msg="session closed, starting reconnect loop" obj=tunnels.session obj=csess id=e7b400f014e5 err="read EOF from remote peer"
+t=2026-03-10T22:03:18+0530 lvl=eror msg="heartbeat timeout, terminating session" obj=tunnels.session obj=csess id=e5a65c37c64c clientid=f10eaa7e61a28c1fea835966448e1358
+t=2026-03-10T22:03:21+0530 lvl=info msg="client session established" obj=tunnels.session
+t=2026-03-10T22:03:21+0530 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2026-03-10T22:16:12+0530 lvl=info msg="join connections" obj=join id=83290a943066 l=[::1]:5000 r=[2401:4900:422d:45ce:0:15:d0dc:3201]:41756
+t=2026-03-10T22:36:25+0530 lvl=eror msg="session closed, starting reconnect loop" obj=tunnels.session obj=csess id=e7b400f014e5 err="read tcp [2606:4700:110:8fe2:9f92:9d11:9bb:8b33]:54688->[2406:da1a:e91:9302:6bbc:cc3d:8e60:4a99]:443: wsarecv: An established connection was aborted by the software in your host machine."
+t=2026-03-10T22:36:25+0530 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp 3.108.166.207:443: connectex: An attempt was made to access a socket in a way forbidden by its access permissions."
+t=2026-03-10T22:36:26+0530 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp 3.108.166.207:443: connectex: An attempt was made to access a socket in a way forbidden by its access permissions."
+t=2026-03-10T22:36:27+0530 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp 3.108.166.207:443: connectex: An attempt was made to access a socket in a way forbidden by its access permissions."
+t=2026-03-10T22:36:29+0530 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp 3.108.166.207:443: connectex: An attempt was made to access a socket in a way forbidden by its access permissions."
+t=2026-03-10T22:36:33+0530 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp 3.108.166.207:443: connectex: An attempt was made to access a socket in a way forbidden by its access permissions."
+t=2026-03-10T22:36:42+0530 lvl=info msg="client session established" obj=tunnels.session
+t=2026-03-10T22:36:42+0530 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2026-03-10T22:36:45+0530 lvl=eror msg="heartbeat timeout, terminating session" obj=tunnels.session obj=csess id=10736590af6e clientid=f10eaa7e61a28c1fea835966448e1358
