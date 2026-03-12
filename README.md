@@ -1,8 +1,11 @@
-# 🍽️ NIT Kurukshetra Mess Management System
+# 🍽️ Smart Mess Management System
 
-A full-stack web application built to modernize mess operations at **NIT Kurukshetra** and help reduce **food wastage** through smart attendance tracking, analytics, and student engagement.
+🚀 **Live Demo:** https://messmate-nitk.vercel.app/  
+💻 **Source Code:** https://github.com/K-Raze/nit-kkr-mess-management
 
-The system provides **separate dashboards for students and administrators**, enabling efficient meal management, attendance tracking, billing, and feedback.
+A full-stack web application designed to modernize hostel mess operations and reduce **food wastage** through smart attendance tracking, analytics, and student engagement.
+
+The platform provides **separate dashboards for students and administrators**, enabling efficient meal management, attendance tracking, billing, feedback collection, and data-driven decision making.
 
 ---
 
@@ -10,14 +13,22 @@ The system provides **separate dashboards for students and administrators**, ena
 
 Hostel messes often prepare food without accurate demand predictions, leading to **significant food wastage**.
 
-This system aims to solve that problem by:
+This system addresses that problem by:
 
 - Allowing students to **RSVP meals in advance**
-- Tracking attendance through **QR-based scanning**
-- Providing **analytics to mess administrators**
-- Monitoring **crowd levels and food consumption patterns**
+- Tracking attendance using **QR-based scanning**
+- Providing **analytics and insights** to mess administrators
+- Monitoring **real-time crowd levels**
 
-This enables better **meal planning, reduced wastage, and improved mess management**.
+This enables better **meal planning, reduced wastage, and improved mess management efficiency**.
+
+---
+
+# 🌐 Live Demo
+
+You can explore the deployed application here:
+
+🔗 https://messmate-nitk.vercel.app/
 
 ---
 
@@ -35,7 +46,7 @@ Students can:
 - Apply for **meal rebates**
 - Participate in **polls**
 - Submit **meal feedback**
-- View **personal analytics** such as:
+- View **personal analytics**, including:
   - Meals attended
   - Meals skipped
   - Estimated food saved
@@ -48,12 +59,12 @@ Administrators can:
 
 - **Scan QR codes** to mark student attendance
 - **Search students** in the database
-- **Manage mess menu**
+- **Manage mess menus**
 - **Create and monitor polls**
 - View **student feedback**
 - Track **live crowd analytics**
 - Monitor **billing and rebates**
-- View **mess usage analytics**
+- Analyze **mess usage statistics**
 
 ---
 
@@ -65,27 +76,27 @@ Each student has a unique QR code.
 
 Mess staff can scan the QR code to:
 
-- verify student identity
-- mark attendance
-- update meal analytics
+- Verify student identity
+- Mark attendance
+- Update meal analytics
 
 ---
 
 ## Meal RSVP System
 
-Students can choose whether they will attend meals.
+Students can indicate whether they will attend meals.
 
 This allows the mess to:
 
-- estimate demand
-- prepare accurate meal quantities
-- reduce food wastage
+- Estimate meal demand
+- Prepare accurate quantities
+- Reduce food wastage
 
 ---
 
 ## Live Crowd Monitoring
 
-Displays the **current crowd level inside the mess**, helping students choose less crowded times.
+Displays the **current crowd level in the mess**, helping students choose less crowded times.
 
 ---
 
@@ -93,9 +104,9 @@ Displays the **current crowd level inside the mess**, helping students choose le
 
 Students can:
 
-- track wallet balance
-- view transaction history
-- apply for rebates when skipping meals
+- Track wallet balance
+- View transaction history
+- Apply for rebates when skipping meals
 
 Admins can review and approve rebate requests.
 
@@ -105,9 +116,9 @@ Admins can review and approve rebate requests.
 
 Students can participate in polls such as:
 
-- food quality ratings
-- menu preferences
-- meal satisfaction
+- Food quality ratings
+- Menu preferences
+- Meal satisfaction
 
 Admins can use this data to improve mess services.
 
